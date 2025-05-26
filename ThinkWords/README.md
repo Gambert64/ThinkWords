@@ -1,32 +1,29 @@
 # Think Words – The Fast-Paced, Family-Friendly Word Game
 
-Think Words is an interactive word game built with Python and Tkinter. The game challenges players to think of words within a given category while racing against the clock.
+Think Words is a quick-thinking word game that challenges players to react quickly. At the start of each round, players enter a category. The timer starts, and the first player must think of a word that fits the category.
+
+You have to think of a word within the set timer duration. Once you have a word, press the corresponding letter key and say the word. The timer resets automatically. Then it's the next player's turn, who must find a new word using one of the remaining letters.
+
+Customizable settings include timer duration, target score, and support for both English and German languages.
 
 ## Features
 
-- Multiplayer support (2-8 players)
+- Multiplayer (2-8 players)
 - Customizable game settings:
   - Adjustable timer duration
   - Customizable points required to win
+  - English and German language support
 - Timer-based gameplay
-- Category-based word challenges
 - Score tracking
-- German language support
-- Responsive GUI that adapts to screen size
+- Responsive GUI 
 
 ## Requirements
 
 - Python 3.x
-- Tkinter (usually comes with Python)
-- Pillow (PIL) for image handling
 
 ## Installation
 
 1. Clone this repository or download the source code
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## How to Play
 
@@ -46,21 +43,3 @@ Think Words is an interactive word game built with Python and Tkinter. The game 
    - Think of a word that fits the category and starts with the selected letter
    - If you fail or time runs out, it's the next player's turn
 6. The first player to reach the target score wins!
-
-## Game Rules
-
-- Each player takes turns
-- You have a customizable amount of time to think of a word
-- Words must:
-  - Start with the selected letter
-  - Fit the given category
-
-## Project Structure
-
-- `game.py` - Main game logic and GUI
-- `icons/` - Directory containing game icons
-- `requirements.txt` - Project dependencies
-
-## Contributing
-
-Feel free to fork this project and submit pull requests with improvements or new features.
