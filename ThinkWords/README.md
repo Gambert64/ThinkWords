@@ -1,4 +1,4 @@
-# Think Words Game
+# Think Words – The Fast-Paced, Family-Friendly Word Game
 
 Think Words is an interactive word game built with Python and Tkinter. The game challenges players to think of words within a given category while racing against the clock.
 
